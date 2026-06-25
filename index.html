@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Angry Nums — Tetris-Style Math Puzzle</title>
+<style>
+  :root{
+    --bg2:#1B1320; --line:#3A2A33; --ink:#F3EAE4; --dim:#B19BAE; --accent:#FF8A3D; --gold:#FFC74A;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:radial-gradient(120% 80% at 50% 0%,#2C1622 0%,#211521 45%,#14101A 100%);
+    color:var(--ink); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.65; -webkit-font-smoothing:antialiased; text-align:center;
+  }
+  .wrap{max-width:760px; margin:0 auto; padding:64px 22px 70px}
+  .logo{width:108px;height:108px;border-radius:26px; margin:0 auto 22px;
+    background:linear-gradient(135deg,var(--accent),var(--gold));
+    display:flex;align-items:center;justify-content:center;color:#1A0E08;font-weight:900;font-size:46px;
+    box-shadow:0 14px 40px rgba(255,138,61,.35)}
+  h1{font-size:44px; letter-spacing:2px; margin:0; line-height:1.05;
+    background:linear-gradient(90deg,var(--accent),var(--gold));
+    -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent}
+  .tag{color:var(--dim); font-size:15px; letter-spacing:1px; margin:10px 0 28px; text-transform:uppercase}
+  .pitch{max-width:540px; margin:0 auto 30px; font-size:18px}
+  .pitch b{color:var(--gold)}
+  .cta{display:inline-block; padding:15px 34px; border-radius:50px; font-weight:700; font-size:17px;
+    color:#1A0E08; text-decoration:none; background:linear-gradient(90deg,var(--accent),var(--gold));
+    box-shadow:0 10px 30px rgba(255,138,61,.35)}
+  .feats{display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:14px;
+    max-width:620px; margin:44px auto 0; text-align:left}
+  .feat{background:var(--bg2); border:1px solid var(--line); border-radius:14px; padding:16px 18px}
+  .feat .h{color:var(--gold); font-weight:600; margin-bottom:2px}
+  .feat .s{color:var(--dim); font-size:14px}
+  footer{margin-top:48px; padding-top:22px; border-top:1px solid var(--line); color:var(--dim); font-size:13px;
+    display:flex; gap:18px; justify-content:center; flex-wrap:wrap}
+  footer a{color:var(--accent); text-decoration:none}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="logo">8</div>
+    <h1>ANGRY NUMS</h1>
+    <p class="tag">Chain-reaction math puzzle</p>
+
+    <p class="pitch">Numbers are falling — and they’re angry. Bend them with <b>+ − ×</b> to hit the gold target, clear the board, and chain explosive combos. A fast, brain-tickling mash-up of Tetris and mental math. <b>100% ad-free.</b></p>
+
+    <a class="cta" href="#" rel="noopener">Download on the App Store</a>
+
+    <div class="feats">
+      <div class="feat"><div class="h">Pure skill</div><div class="s">Easy to learn, deep to master — no luck.</div></div>
+      <div class="feat"><div class="h">Explosive combos</div><div class="s">Chain targets and trigger Color Bombs.</div></div>
+      <div class="feat"><div class="h">Endless &amp; fast</div><div class="s">Speeds up the higher you climb.</div></div>
+      <div class="feat"><div class="h">Ad-free &amp; offline</div><div class="s">No timers, no paywalls, plays offline.</div></div>
+    </div>
+
+    <footer>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="support.html">Support</a>
+      <span>© 2026 Çağrı Karaca. All rights reserved.</span>
+    </footer>
+  </div>
+</body>
+</html>
